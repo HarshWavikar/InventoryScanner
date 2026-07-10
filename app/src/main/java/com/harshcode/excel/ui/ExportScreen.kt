@@ -32,6 +32,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.toSize
 
 @Composable
@@ -117,7 +118,10 @@ fun LabelSelection(
                             expanded = false
                         },
                         text = {
-                            Text(text = label)
+                            Text(
+                                text = label,
+                                fontSize = 12.sp,
+                            )
                         }
                     )
                 }

@@ -14,8 +14,14 @@ val Pink40 = Color(0xFF7D5260)
 val ForestHue1 = Color(0xFF283d3b)
 val ForestHue2 = Color(0xFF197278)
 val ForestHue3 = Color(0xFFedddd4)
+val ForestHue4 = Color(0xFFc44536)
 
 
 val Surface = ForestHue3
 val TitleSurface = ForestHue1
 val ButtonColor = ForestHue2
+
+
+val BorderColor = ForestHue2
+
+val ScannedCardColor = ForestHue4
