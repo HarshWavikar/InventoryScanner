@@ -60,4 +60,5 @@ dependencies {
 
     debugImplementation(libs.apache.poi)
     debugImplementation(libs.apache.poi.ooxml)
+    debugImplementation(libs.compose.viewmodel)
 }
